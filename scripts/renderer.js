@@ -57,6 +57,8 @@ class Renderer {
         // Following line is example of drawing a single line
         // (this should be removed after you implement the curve)
         this.drawLine({x: 100, y: 100}, {x: 600, y: 300}, [255, 0, 0, 255], framebuffer);
+        this.drawLine({x: 160, y: 220}, {x: 670, y: 400}, [255, 0, 0, 255], framebuffer);
+
     }
 
     // framebuffer:  canvas ctx image data
